@@ -23,7 +23,7 @@ DuckScript is a custom scripting language interpreted by this Go-based program. 
 To run a DuckScript file: `./duck path/to/script.dk`
 
 ## Commands & Syntax:
-
+`
 Command     ::        Description
 set	        ::        Assigns a value to a variable
 print	      ::        Outputs a value
@@ -34,7 +34,7 @@ case	      ::        Conditional execution
 thread	    ::        Runs a command in a new thread
 invoke	    ::        Executes an external command
 sleep	      ::        Pauses execution for a duration in ms
-
+`
 
 ## Example `test.dk`:
 `
