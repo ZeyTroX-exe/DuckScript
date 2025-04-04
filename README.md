@@ -17,10 +17,10 @@ DuckScript is a custom scripting language interpreted by this Go-based program. 
 
 1. Install Go: [Download Go](https://go.dev/dl/)
 2. Clone the repository: `git clone https://github.com/ZeyTroX-exe/DuckScript.git`
-3. Build the executable: `go build main.go`
+3. Build the executable: `go build main.go -o quack.exe`
 
 ## Usage:
-To run a DuckScript file: `./duck path/to/script.dk`
+To run a DuckScript file: `.\quack.exe C:\path\to\script.dk`
 
 ## Commands & Syntax:
 
