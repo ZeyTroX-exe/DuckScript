@@ -35,6 +35,7 @@ To run a DuckScript file: `./duck path/to/script.dk`
 | `sleep`  | Pauses execution for a duration   | `sleep 1000` (1 sec)    |
 
 ## Example `test.dk`:
+
 `
 label count;
     set counter = counter + 1;
@@ -43,8 +44,6 @@ label count;
     sleep 1000;
     case counter == num : end count;
     goto x;
-
-
 start;
     input 'Enter a number: ' = num;
     set counter = 0;
