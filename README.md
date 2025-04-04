@@ -26,13 +26,13 @@ To run a DuckScript file: `./duck path/to/script.dk`
 
 | Command  | Description                        | Example Usage           |
 |----------|------------------------------------|-------------------------|
-| `set`    | Assigns a value to a variable     | `set x = "Hello"`       |
-| `print`  | Outputs a value                   | `print x`               |
-| `input`  | Reads user input                  | `input name`            |
-| `goto`   | Jumps to a label                  | `goto start`            |
-| `label`  | Defines a label                   | `label start`           |
-| `thread` | Runs a command in a new thread    | `thread print "Hi"`     |
-| `sleep`  | Pauses execution for a duration   | `sleep 1000` (1 sec)    |
+| `set`    | Assigns a value to a variable     | `set x = "Hello;"`       |
+| `print`  | Outputs a value                   | `print x;`               |
+| `input`  | Reads user input                  | `input name;`            |
+| `goto`   | Jumps to a label                  | `goto start;`            |
+| `label`  | Defines a label                   | `label start;`           |
+| `thread` | Runs a command in a new thread    | `thread print "Hi";`     |
+| `sleep`  | Pauses execution for a duration   | `sleep 1000;` (1 sec)    |
 
 ## Example `test.dk`:
 
