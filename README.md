@@ -23,18 +23,16 @@ DuckScript is a custom scripting language interpreted by this Go-based program. 
 To run a DuckScript file: `./duck path/to/script.dk`
 
 ## Commands & Syntax:
-`
-Command     ::        Description
-set	        ::        Assigns a value to a variable
-print	      ::        Outputs a value
-input	      ::        Reads user input
-goto	      ::        Jumps to a label
-label	      ::        Defines a label
-case	      ::        Conditional execution
-thread	    ::        Runs a command in a new thread
-invoke	    ::        Executes an external command
-sleep	      ::        Pauses execution for a duration in ms
-`
+
+| Command  | Description                        | Example Usage           |
+|----------|------------------------------------|-------------------------|
+| `set`    | Assigns a value to a variable     | `set x = "Hello"`       |
+| `print`  | Outputs a value                   | `print x`               |
+| `input`  | Reads user input                  | `input name`            |
+| `goto`   | Jumps to a label                  | `goto start`            |
+| `label`  | Defines a label                   | `label start`           |
+| `thread` | Runs a command in a new thread    | `thread print "Hi"`     |
+| `sleep`  | Pauses execution for a duration   | `sleep 1000` (1 sec)    |
 
 ## Example `test.dk`:
 `
