@@ -24,7 +24,7 @@ To run a DuckScript file: `./duck path/to/script.dk`
 
 ## Commands & Syntax:
 
-### Command     ::        Description
+Command     ::        Description
 set	        ::        Assigns a value to a variable
 print	      ::        Outputs a value
 input	      ::        Reads user input
