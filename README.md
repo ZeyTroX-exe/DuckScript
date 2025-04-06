@@ -26,7 +26,7 @@ To run a DuckScript file: `.\quack.exe C:\path\to\script.dk`
 
 | Command  | Description                        | Example Usage           |
 |----------|------------------------------------|-------------------------|
-| `set`    | Assigns a value to a variable     | `set x = "Hello;"`       |
+| `set`    | Assigns a value to a variable     | `set x = "Hello";`       |
 | `print`  | Outputs a value                   | `print x;`               |
 | `input`  | Reads user input                  | `input name;`            |
 | `goto`   | Jumps to a label                  | `goto start;`            |
