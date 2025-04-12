@@ -43,7 +43,7 @@ label count;
     print '\n';
     sleep 1000;
     case counter == num : end count;
-    goto x;
+    goto count;
 
 start;
     input 'Enter a number: ' = num;
